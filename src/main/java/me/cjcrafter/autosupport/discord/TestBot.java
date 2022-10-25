@@ -14,7 +14,7 @@ import java.net.URL;
 public class TestBot {
 
     public static void main(String[] args) throws LoginException, InterruptedException {
-        JDABuilder builder = JDABuilder.createDefault("MTAyMTc5NjExOTYxOTA0MzM3OA.GfIJJc.23de_twv6sFx1ONVOBriuV83f17RNtUJg-OdGU");
+        JDABuilder builder = JDABuilder.createDefault("Key Goes Here");
 
         URL folder = TestBot.class.getClassLoader().getResource("examples");
         DiscordImpl autosupport = new DiscordImpl(folder, System.out::println);
